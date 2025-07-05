@@ -1,0 +1,13 @@
+
+[
+  { "device": "iPhone 16 Pro Max", "score": 4250 },
+  { "device": "Samsung Galaxy S25 Ultra", "score": 4180 },
+  { "device": "Google Pixel 9 Pro", "score": 3890 },
+  { "device": "OnePlus 13 Pro", "score": 3750 },
+  { "device": "Xiaomi 15 Ultra", "score": 3680 },
+  { "device": "Sony Xperia 1 VI", "score": 3420 },
+  { "device": "Asus ROG Phone 8 Pro", "score": 3350 },
+  { "device": "Nothing Phone (3)", "score": 3180 },
+  { "device": "Motorola Edge 50 Ultra", "score": 2950 },
+  { "device": "Realme GT 6 Pro", "score": 2840 }
+]
