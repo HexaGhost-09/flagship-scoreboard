@@ -1,23 +1,14 @@
-
 'use client';
 import { useState } from "react";
+// Import the JSON file you created
+import devices from "@/data/devices-smartphone.json";
 
 export default function SmartphoneRanking() {
   const year = 2025;
   const [showAll, setShowAll] = useState(false);
 
-  const rankings = [
-    { device: "Xiaomi 15 Ultra", score: 95 },
-    { device: "Oppo Find X8 Ultra", score: 95 },
-    { device: "iPhone 16 Pro Max", score: 94 },
-    { device: "Samsung Galaxy S25 Ultra", score: 93 },
-    { device: "Vivo X200 Ultra", score: 93 },
-    { device: "OnePlus 13", score: 92 },
-    { device: "ROG Phone 9", score: 90 },
-    { device: "Sony Xperia 1 VII", score: 90 },
-    { device: "Motorola Razr 60 Ultra", score: 89 },
-    { device: "Google Pixel 9 Pro", score: 82 },
-  ];
+  // Use imported JSON data instead of hardcoded array
+  const rankings = devices;
 
   const top3Backgrounds = [
     "bg-yellow-100/30 dark:bg-yellow-300/10",
