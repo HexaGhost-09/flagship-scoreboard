@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import laptops from "../../../data/devices-laptop.json";
+import laptops from "../../data/devices-laptop.json";
 
 export default function LaptopRanking() {
   const year = 2025;

@@ -1,7 +1,7 @@
 
 'use client';
 import { useState } from "react";
-import tablets from "../../../data/devices-tablet.json";
+import tablets from "../../data/devices-tablet.json";
 
 export default function TabletRanking() {
   const year = 2025;
