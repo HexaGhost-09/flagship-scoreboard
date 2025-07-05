@@ -1,26 +1,80 @@
+<div align="center">
+
+<a href="/">
+  <img src="https://ik.imagekit.io/dy44khd73/flagshiplogo.png?updatedAt=1749897563233" width="160" height="160" align="center" alt="Flagship Scoreboard Logo">
+</a>
+
 # 📱💻📊 Flagship Scoreboard
 
-[![License: MIT](https://img.shields.io/github/license/HexaGhost-09/flagship-scoreboard?color=blue)](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE)
-[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://vercel.com)
-[![Next.js](https://img.shields.io/badge/Built%20with-Next.js-000?logo=next.js)](https://nextjs.org)
-[![Tailwind CSS](https://img.shields.io/badge/Styled%20with-Tailwind%20CSS-38bdf8?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![TypeScript](https://img.shields.io/badge/Code-TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Stars](https://img.shields.io/github/stars/HexaGhost-09/flagship-scoreboard?style=social)](https://github.com/HexaGhost-09/flagship-scoreboard/stargazers)
+### The Ultimate Device Ranking & Leaderboard Hub
 
-A dynamic ranking scoreboard for flagship **phones**, **tablets**, **laptops**, and other top devices.  
-Stay updated with the latest scores 📈 and leaderboards ⭐ in one place.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-badge-id/deploy-status)](https://app.netlify.com/sites/your-netlify-project/deploys)
+[![GitHub Repo stars](https://img.shields.io/github/stars/HexaGhost-09/flagship-scoreboard?style=flat&logo=github)](https://github.com/HexaGhost-09/flagship-scoreboard/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/HexaGhost-09/flagship-scoreboard?style=flat&logo=github)](https://github.com/HexaGhost-09/flagship-scoreboard/network)
+[![GitHub issues](https://img.shields.io/github/issues/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/issues)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/releases)
+[![GitHub contributors](https://img.shields.io/github/contributors/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/graphs/contributors)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/pulls)
+
+</div>
 
 ---
 
-## 📊 Features
+## 🌐 Live Website
+
+- **Main Website:** [https://flagship-scoreboard.netlify.app](https://flagship-scoreboard.netlify.app)
+
+---
+
+## 📱 Screenshots
+
+<div align="center">
+  <img src="https://ik.imagekit.io/dy44khd73/screenshot1.jpg" width="30%" />
+  <img src="https://ik.imagekit.io/dy44khd73/screenshot2.jpg" width="30%" />
+  <!-- Add more screenshots if you want -->
+</div>
+
+<br>
+
+## 📖 Features
 
 - 📱 **Flagship Phone Rankings**
 - 💻 **Laptop & Tablet Leaderboards**
 - 📈 **Live Score Updates**
-- ⭐ **Top Devices Highlights**
+- ⭐ **Top Device Highlights**
 - 🌙 **Dark Mode Support**
-- ⚡ **Fast, responsive, and modern UI**
+- ⚡ **Fast & Modern Next.js + Tailwind UI**
+- 📊 **Open-source and community driven**
 
 ---
 
-⭐ **Follow for device rankings, updates, and leaderboard drops!**
+## ⬇️ Download & Releases
+
+- Grab the latest updates and scores from the [Releases page](https://github.com/HexaGhost-09/flagship-scoreboard/releases).
+
+---
+
+## 💬 Contact
+
+- Report bugs, feature ideas, or requests in [GitHub Issues](https://github.com/HexaGhost-09/flagship-scoreboard/issues).
+- Join the discussion via [GitHub Discussions](https://github.com/HexaGhost-09/flagship-scoreboard/discussions).
+
+---
+
+## ⭐️ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HexaGhost-09/flagship-scoreboard&type=Timeline)](https://star-history.com/#HexaGhost-09/flagship-scoreboard&Timeline)
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE).
+
+[![GitHub](https://img.shields.io/github/license/HexaGhost-09/flagship-scoreboard?style=for-the-badge)](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE)
+
+<div align="right">
+<table><td>
+<a href="#start-of-content">👆 Scroll to top</a>
+</td></table>
+</div>
