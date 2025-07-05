@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-outfit: var(--font-outfit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-outfit), sans-serif;
+}
+
+@layer utilities {
+  /* Entrance animations */
+  .animate-slide-down {
+    animation: slideDown 0.6s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in-slow {
+    animation: fadeIn 1.4s ease-out forwards;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-12px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* Underline drawing animation */
+  .underline-draw {
+    position: relative;
+    display: inline-block;
+  }
+
+  .underline-draw::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%; /* Pushes it just below the text */
+  margin-top: 6px; /* Optional spacing tweak */
+  width: 100%;
+  height: 4px;
+  background-color: #8b5cf6; /* Tailwind purple-500 */
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: underlineDraw 1.8s ease-in-out infinite alternate;
+  }
+
+  @keyframes underlineDraw {
+    0% {
+      transform: scaleX(0);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+}
