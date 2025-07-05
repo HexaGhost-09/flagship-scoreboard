@@ -1,7 +1,7 @@
 'use client';
 import { useState } from "react";
 // Import the JSON file you created
-import devices from "@/data/devices-smartphone.json";
+import devices from "../../../data/devices-smartphone.json";
 
 export default function SmartphoneRanking() {
   const year = 2025;

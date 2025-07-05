@@ -1,23 +1,11 @@
 
 'use client';
 import { useState } from "react";
+import tablets from "../../../data/devices-tablet.json";
 
 export default function TabletRanking() {
   const year = 2025;
   const [showAll, setShowAll] = useState(false);
-
-  const tablets = [
-    { device: "Apple iPad Pro 13 (2024)", score: 3488 },
-    { device: "Apple iPad Pro 11 (2024)", score: 3460 },
-    { device: "Apple iPad Pro 12.9 (2022)", score: 2618 },
-    { device: "Samsung Galaxy Tab S10 Ultra", score: 1902 },
-    { device: "Vivo Pad 3 Pro", score: 1886 },
-    { device: "Lenovo Legion Y700 (2025)", score: 1661 },
-    { device: "OnePlus Pad 2", score: 1623 },
-    { device: "Xiaomi Pad 7 Pro", score: 1057 },
-    { device: "Google Pixel Tablet", score: 721 },
-    { device: "Samsung Galaxy Tab S9 FE", score: 295 },
-  ];
 
   const top3Backgrounds = [
     "bg-yellow-100/30 dark:bg-yellow-300/10",

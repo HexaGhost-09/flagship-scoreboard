@@ -1,22 +1,10 @@
 'use client';
 import { useState } from "react";
+import laptops from "../../../data/devices-laptop.json";
 
 export default function LaptopRanking() {
   const year = 2025;
   const [showAll, setShowAll] = useState(false);
-
-  const laptops = [
-    { device: "MacBook Pro 16-inch M4 Max", score: 4250 },
-    { device: "Dell XPS 17 (2025)", score: 3890 },
-    { device: "ASUS ROG Zephyrus G16", score: 3820 },
-    { device: "Lenovo ThinkPad X1 Carbon Gen 13", score: 3650 },
-    { device: "Surface Laptop Studio 3", score: 3420 },
-    { device: "HP Spectre x360 16", score: 3180 },
-    { device: "Razer Blade 15 Advanced", score: 3050 },
-    { device: "Acer Swift 5 (2025)", score: 2890 },
-    { device: "MSI Creator Z17", score: 2750 },
-    { device: "Framework Laptop 16", score: 2640 },
-  ];
 
   const top3Backgrounds = [
     "bg-yellow-100/30 dark:bg-yellow-300/10",
