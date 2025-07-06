@@ -8,7 +8,7 @@
 
 ### The Ultimate Device Ranking & Leaderboard Hub
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-netlify-badge-id/deploy-status)](https://app.netlify.com/sites/your-netlify-project/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1b0752f1-b003-4a36-b07e-74c5ce255964/deploy-status)](https://app.netlify.com/projects/flagship-scoreboard/deploys)
 [![GitHub Repo stars](https://img.shields.io/github/stars/HexaGhost-09/flagship-scoreboard?style=flat&logo=github)](https://github.com/HexaGhost-09/flagship-scoreboard/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/HexaGhost-09/flagship-scoreboard?style=flat&logo=github)](https://github.com/HexaGhost-09/flagship-scoreboard/network)
 [![GitHub issues](https://img.shields.io/github/issues/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/issues)
