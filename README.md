@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href="/">
-  <img src="https://ik.imagekit.io/dy44khd73/flagshiplogo.png?updatedAt=1749897563233" width="160" height="160" align="center" alt="Flagship Scoreboard Logo">
+  <img src="https://ik.imagekit.io/dy44khd73/image_1751767380643.jpeg?updatedAt=1751771098088" width="160" height="160" align="center" alt="Flagship Scoreboard Logo">
 </a>
 
-# 📱💻📊 Flagship Scoreboard
+# 📊 Flagship Scoreboard
 
 ### The Ultimate Device Ranking & Leaderboard Hub
 
