@@ -48,12 +48,6 @@
 
 ---
 
-## ⬇️ Download & Releases
-
-- Grab the latest updates and scores from the [Releases page](https://github.com/HexaGhost-09/flagship-scoreboard/releases).
-
----
-
 ## 💬 Contact
 
 - Report bugs, feature ideas, or requests in [GitHub Issues](https://github.com/HexaGhost-09/flagship-scoreboard/issues).
