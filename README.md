@@ -65,7 +65,7 @@
 
 This project is licensed under the [MIT License](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE).
 
-[![GitHub](https://img.shields.io/github/license/HexaGhost-09/flagship-scoreboard?style=for-the-badge)](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/HexaGhost-09/flagship-scoreboard)](https://github.com/HexaGhost-09/flagship-scoreboard/blob/main/LICENSE)
 
 <div align="right">
 <table><td>
