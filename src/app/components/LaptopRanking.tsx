@@ -1,3 +1,4 @@
+
 'use client';
 import { useState } from "react";
 import laptops from "../../data/devices-laptop.json";
@@ -6,6 +7,9 @@ export default function LaptopRanking() {
   const year = 2025;
   const [showAll, setShowAll] = useState(false);
 
+  // Sort laptops by score in descending order (highest first)
+  const sortedLaptops = [...laptops].sort((a, b) => b.score - a.score);
+
   const top3Backgrounds = [
     "bg-yellow-100/30 dark:bg-yellow-300/10",
     "bg-gray-200/30 dark:bg-gray-400/10",
@@ -13,7 +17,7 @@ export default function LaptopRanking() {
   ];
 
   const badgeColors = ["bg-yellow-300", "bg-gray-300", "bg-orange-300"];
-  const visible = showAll ? laptops : laptops.slice(0, 3);
+  const visible = showAll ? sortedLaptops : sortedLaptops.slice(0, 3);
 
   return (
     <section className="w-full max-w-3xl px-4">
@@ -53,13 +57,13 @@ export default function LaptopRanking() {
         ))}
       </div>
 
-      {!showAll && laptops.length > 3 && (
+      {!showAll && sortedLaptops.length > 3 && (
         <div className="mt-6 text-center">
           <button
             onClick={() => setShowAll(true)}
             className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-200 font-medium"
           >
-            Show All {laptops.length} Devices
+            Show All {sortedLaptops.length} Devices
           </button>
         </div>
       )}

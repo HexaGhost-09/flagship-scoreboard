@@ -1,3 +1,4 @@
+
 'use client';
 import { useState } from "react";
 // Import the JSON file you created
@@ -7,8 +8,8 @@ export default function SmartphoneRanking() {
   const year = 2025;
   const [showAll, setShowAll] = useState(false);
 
-  // Use imported JSON data instead of hardcoded array
-  const rankings = devices;
+  // Sort devices by score in descending order (highest first)
+  const sortedDevices = [...devices].sort((a, b) => b.score - a.score);
 
   const top3Backgrounds = [
     "bg-yellow-100/30 dark:bg-yellow-300/10",
@@ -17,7 +18,7 @@ export default function SmartphoneRanking() {
   ];
 
   const badgeColors = ["bg-yellow-300", "bg-gray-300", "bg-orange-300"];
-  const visibleRankings = showAll ? rankings : rankings.slice(0, 3);
+  const visibleRankings = showAll ? sortedDevices : sortedDevices.slice(0, 3);
 
   return (
     <section className="w-full max-w-3xl px-4">
@@ -57,13 +58,13 @@ export default function SmartphoneRanking() {
         ))}
       </div>
 
-      {!showAll && rankings.length > 3 && (
+      {!showAll && sortedDevices.length > 3 && (
         <div className="mt-6 text-center">
           <button
             onClick={() => setShowAll(true)}
             className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-200 font-medium"
           >
-            Show All {rankings.length} Devices
+            Show All {sortedDevices.length} Devices
           </button>
         </div>
       )}
