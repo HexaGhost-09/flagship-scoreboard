@@ -1,13 +1,7 @@
 
 [
-  { "device": "MacBook Pro 16 M4 Max", "score": 4850 },
-  { "device": "Dell XPS 15 9540", "score": 4720 },
-  { "device": "MacBook Air 15 M3", "score": 4650 },
-  { "device": "ThinkPad X1 Carbon Gen 12", "score": 4480 },
-  { "device": "ASUS ROG Zephyrus G16", "score": 4350 },
-  { "device": "Surface Laptop Studio 2", "score": 4180 },
-  { "device": "HP Spectre x360 16", "score": 4050 },
-  { "device": "Razer Blade 16", "score": 3920 },
-  { "device": "Alienware m18 R2", "score": 3850 },
+  { "device": "MacBook Pro 16 M4 Max", "score": 81 },
+  { "device": "Asus ROG Strix SCAR 18 (2025)", "score": 85 },
+  { "device": "Razer Blade 18 (2025)", "score": 85 },
   { "device": "Framework Laptop 16", "score": 3650 }
 ]
