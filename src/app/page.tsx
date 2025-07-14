@@ -21,9 +21,19 @@ export default function Home() {
       </div>
 
       <Databuddy
-        clientId="TTktJTEnCX55gNKZ8LEy9"
-        enableBatching={true}
-      />
+  clientId="TTktJTEnCX55gNKZ8LEy9"
+  trackHashChanges={true}
+  trackAttributes={true}
+  trackOutgoingLinks={true}
+  trackInteractions={true}
+  trackEngagement={true}
+  trackScrollDepth={true}
+  trackExitIntent={true}
+  trackBounceRate={true}
+  trackWebVitals={true}
+  trackErrors={true}
+  enableBatching={true}
+/>
     </>
   );
 }
