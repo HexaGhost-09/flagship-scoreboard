@@ -1,14 +1,13 @@
 
 [
-  { "device": "iPhone 17 Pro Max", "score": 94 },
-  { "device": "Samsung Galaxy S25 Ultra", "score": 93 },
-  { "device": "Google Pixel 10 Pro XL", "score": 86 },
-  { "device": "OnePlus 13 Pro", "score": 92 },
-  { "device": "Xiaomi 15 Ultra", "score": 95 },
-  { "device": "Sony Xperia 1 VII", "score": 90 },
-  { "device": "Asus ROG Phone 9 Pro", "score": 90 },
-  { "device": "Vivo X200 Ultra", "score": 93 },
-  { "device": "Motorola Razr 60 Ultra", "score": 89 },
-  { "device": "Oppo Find X8 Ultra", "score": 95 },
-  { "device": "Realme GT 7 Pro", "score": 90 }
+  { "device": "Red Magic 10 Pro", "score": 100 },
+  { "device": "iQOO 13 5G", "score": 100 },
+  { "device": "K30 Neo10 Pro+", "score": 95 },
+  { "device": "Oppo Find X5", "score": 93 },
+  { "device": "Poco F7 Ultra", "score": 91 },
+  { "device": "Mi 15 Ultra", "score": 91 },
+  { "device": "Vivo X200 Pro", "score": 90 },
+  { "device": "Mi 13", "score": 89 },
+  { "device": "Vivo X200 Pro mini", "score": 87 },
+  { "device": "Galaxy S23 Ultra", "score": 82 }
 ]
